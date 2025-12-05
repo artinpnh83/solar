@@ -43,7 +43,7 @@ return [
     'OurGoal' => 'Our goal',
     'OurGoalp' => 'Accompanying and supporting customers in selecting and optimally using products',
     'IntroducingTheCEO' => 'Introducing the CEO',
-    'IntroducingTheCEOp' => 'Engineer Ali Abbas Pour, with a Master’s degree in Mechanical Engineering, is the Managing Director and Head of Sealing Solutions at Sealban Sealing Company. He has over 15 years of experience in the design, calibration and manufacturing of mechanical seals for centrifugal pumps and mechanical seal piping plans. He has also founded and established several sealing companies that are still active in this industry.',
+    'IntroducingTheCEOp' => 'Engineer Ali Abbas Pour, with a Master\'s degree in Renewable Energy Engineering, is the Managing Director and Head of Solar Energy Solutions at SURINSHINEENERGY Company. He has over 15 years of experience in the design, installation and manufacturing of solar panels and renewable energy systems. He has also founded and established several clean energy companies that are still active in the renewable energy industry.',
     'IntroducingTheCEO1' => 'More than 350 students joined us to achieve their goals.',
     
     'blogSingleH1' => 'Similar blogs',
@@ -84,7 +84,7 @@ return [
     'about2'=>'We must promote ethical attitude to employees, customers and suppliers and all stakeholders, so we have created an internal ethical policy and we are working to enforce it. We are responsible for helping us create a more just and balanced world.',
     'about3'=>'We believe that the creation of a work environment and the design of professional projects requires the use of different efforts and ideas. By joining forces, we can come up with more challenging challenges. And we have to insist on doing the perfect job in the hands of a professional team.',
     'about4'=>'We believe that no project can progress without enthusiasm. Many factors, such as eagerness and enthusiasm, develop a sense of responsibility and loyalty to common ideas.',
-    'about5'=>'The Sealban family, as a group company, seeks to strengthen diversity as a symbol to create a better world and always strives to create new and better ideas. Every application has its own special requirements profile, and our job is to provide the best sealing solution.',
+    'about5'=>'The SURINSHINEENERGY family, as a green energy company, seeks to strengthen sustainable development as a symbol to create a cleaner world and always strives to create new and better renewable energy ideas. Every solar application has its own special requirements profile, and our job is to provide the best solar energy solution.',
 
     'password' => 'Password',
     'forgotpasswordquestion' => 'Have you forgotten your password?',
@@ -155,7 +155,7 @@ return [
     'about3_index'=>'Design, manufacture, installation, repair and optimization of solar energy systems (photovoltaic panels) in the field of clean energy, solar power plants, residential and commercial applications ...',
     'about4_index'=>'More',
     'about5_index'=>'Experience',
-    'about6_index'=>'In the field of mechanical seals, systems supply and precision instruments',
+    'about6_index'=>'In the field of solar panels, inverters and monitoring systems',
     'pro1_index'=>'Our Products',
     'pro2_index'=>'See more products',
     'pro3_index'=>'here',

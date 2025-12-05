@@ -84,7 +84,7 @@ Image and contact form START -->
 
 			<div class="col-md-6 align-items-center text-center">
 				<!-- Image -->
-				<img src="assets/images/element/contact.svg" class="h-400px" alt="">
+				<img src="assets/images/solar-contact.svg" class="h-400px" alt="">
 
 			</div>
 

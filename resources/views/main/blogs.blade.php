@@ -77,7 +77,7 @@
 
 			<div class="col-md-6 text-center">
 				<!-- Image -->
-				<img src="{{asset('assets/images/3.png')}}" class="h-400px h-xl-500px" alt="">
+				<img src="{{asset('assets/images/solar-blog.png')}}" class="h-400px h-xl-500px" alt="">
 			</div>
 		</div>
 	</div>

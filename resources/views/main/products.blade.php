@@ -93,9 +93,9 @@
     			<div class="col-md-6 text-center">
     				<!-- Image -->
     				 @if(app()->getLocale() == 'fa')
-    				    <img class="h-200px h-xl-200px" src="/assets/images/logo.png" style="height: 65px" alt="logo">
+    			    <img class="h-200px h-xl-200px" src="/assets/images/logo-surinshineenergy.png" style="height: 65px" alt="logo">
     				@else
-    				    <img class="h-200px h-xl-200px" src="/assets/images/logo-en.png" alt="logo">
+    			    <img class="h-200px h-xl-200px" src="/assets/images/logo-surinshineenergy-en.png" alt="logo">
     				@endif
     			</div>
     		</div>
