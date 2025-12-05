@@ -23,7 +23,7 @@
 								<!-- Author info -->
 								<div class="position-relative">
 									
-									<a href="#" class="h5 stretched-link mt-2 mb-0 d-block">SEALBAN</a>
+									<a href="#" class="h5 stretched-link mt-2 mb-0 d-block">SURINSHINEENERGY</a>
 								</div>
 								<!-- Info -->
 								<ul class="list-inline list-unstyled">

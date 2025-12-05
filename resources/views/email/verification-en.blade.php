@@ -120,7 +120,7 @@
                     <tr>
                         <td align="left" bgcolor="#ffffff"
                             style="padding: 24px; font-family: 'Vazirmatn', sans-serif; font-size: 16px; line-height: 24px;">
-                            <p style="margin: 0;">To complete your information in Sealban, verify your email. The verification code for your email in Sealban is the following code:</p>
+                            <p style="margin: 0;">To complete your information in SURINSHINEENERGY, verify your email. The verification code for your email in SURINSHINEENERGY is the following code:</p>
                         </td>
                     </tr>
                     <tr>
@@ -146,7 +146,7 @@
                     <tr>
                         <td align="left" bgcolor="#ffffff"
                             style="padding: 24px; font-family: 'Vazirmatn', sans-serif; font-size: 16px; line-height: 24px; border-bottom: 3px solid #d4dadf">
-                            <p style="margin: 0;">Thank you for your support,<br> Sealban</p>
+                            <p style="margin: 0;">Thank you for your support,<br> SURINSHINEENERGY</p>
                         </td>
                     </tr>
                 </table>
