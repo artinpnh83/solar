@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Doctrine\DBAL\Driver\PDO;
 
 use PDO;
+use SensitiveParameter;
 
 use const PHP_VERSION_ID;
 
@@ -13,13 +14,14 @@ trait PDOConnect
 {
     /** @param array<int, mixed> $options */
     private function doConnect(
+        #[SensitiveParameter]
         string $dsn,
         string $username,
+        #[SensitiveParameter]
         string $password,
         array $options,
     ): PDO {
-        // see https://github.com/php/php-src/issues/16314
-        if (PHP_VERSION_ID < 80400 || ($options[PDO::ATTR_PERSISTENT] ?? false) === true) {
+        if (PHP_VERSION_ID < 80400) {
             return new PDO($dsn, $username, $password, $options);
         }
 

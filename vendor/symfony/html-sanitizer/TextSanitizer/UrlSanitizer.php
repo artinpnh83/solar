@@ -76,7 +76,7 @@ final class UrlSanitizer
     /**
      * Parses a given URL and returns an array of its components.
      *
-     * @return null|array{
+     * @return array{
      *     scheme:?string,
      *     user:?string,
      *     pass:?string,
@@ -85,7 +85,7 @@ final class UrlSanitizer
      *     path:string,
      *     query:?string,
      *     fragment:?string
-     * }
+     * }|null
      */
     public static function parse(string $url): ?array
     {
@@ -97,6 +97,10 @@ final class UrlSanitizer
             $parsedUrl = UriString::parse($url);
 
             if (preg_match('/\s/', $url)) {
+                return null;
+            }
+
+            if (isset($parsedUrl['host']) && self::decodeUnreservedCharacters($parsedUrl['host']) !== $parsedUrl['host']) {
                 return null;
             }
 
@@ -132,11 +136,23 @@ final class UrlSanitizer
     {
         // Check each chunk of the domain is valid
         foreach ($trustedParts as $key => $trustedPart) {
-            if ($uriParts[$key] !== $trustedPart) {
+            if (!\array_key_exists($key, $uriParts) || $uriParts[$key] !== $trustedPart) {
                 return false;
             }
         }
 
         return true;
+    }
+
+    /**
+     * Implementation borrowed from League\Uri\Encoder::decodeUnreservedCharacters().
+     */
+    private static function decodeUnreservedCharacters(string $host): string
+    {
+        return preg_replace_callback(
+            ',%(2[1-9A-Fa-f]|[3-7][0-9A-Fa-f]|61|62|64|65|66|7[AB]|5F),',
+            static fn (array $matches): string => rawurldecode($matches[0]),
+            $host
+        );
     }
 }
