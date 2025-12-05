@@ -3,12 +3,12 @@
 		<!-- Dashboard menu -->
 		<div class="list-group list-group-dark list-group-borderless collapse-list">
 			<a class="list-group-item 
-			@if(url()->current()=='https://sealban.com/profile')
+			@if(url()->current()=='https://surinshineenergy.com/profile')
 			active
 			@endif
 			" href="{{route('profile')}}"><i class="bi bi-ui-checks-grid fa-fw me-2"></i>{{ __('messages.dashboard') }}</a>
 			<a class="list-group-item
-			@if(url()->current()=='https://sealban.com/profile/inquiry')
+			@if(url()->current()=='https://surinshineenergy.com/profile/inquiry')
 			active
 			@endif" href="{{route('inquiry')}}"><i class="bi bi-card-checklist fa-fw me-2"></i>{{ __('messages.inquiry_forms') }}</a>
 			<a class="list-group-item

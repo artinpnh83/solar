@@ -88,14 +88,14 @@ Page content START -->
                         			@endif	
                                     @endforeach
 									<div class="d-sm-flex justify-content-start mt-2">
-									<a href="/storage/inquiry/SealbanDataSheet.pdf" download class="btn btn-sm btn-success-soft mb-3">{{ __('messages.download_form') }}</a>
+									<a href="/storage/inquiry/SurinShineEnergyDataSheet.pdf" download class="btn btn-sm btn-success-soft mb-3">{{ __('messages.download_form') }}</a>
 									</div>
 									</div>
 								  
 									<!-- Upload image END -->
 										<div class="position-relative">
 											<!-- Image -->
-											<img src="/storage/inquiry/SealbanDataSheet-1.webp" class="rounded-4" alt="">
+											<img src="/storage/inquiry/SurinShineEnergyDataSheet-1.webp" class="rounded-4" alt="">
 											
 										</div>
 										<div class="position-relative">

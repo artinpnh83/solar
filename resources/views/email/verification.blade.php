@@ -147,7 +147,7 @@
                     <tr>
                         <td align="right" bgcolor="#ffffff"
                             style="padding: 24px; font-family: 'Vazirmatn', sans-serif; font-size: 16px; line-height: 24px;">
-                            <p style="margin: 0;">جهت تکمیل اطلاعات خود در آب بند سیل بان ایمیل خود را احراز کنید. کد احراز ایمیل شما در آب بند سیل بان
+                            <p style="margin: 0;">جهت تکمیل اطلاعات خود در سورین تابان انرژی ایمیل خود را احراز کنید. کد احراز ایمیل شما در سورین تابان انرژی
                                 کد زیر
                                 می‌باشد:
                             </p>
@@ -186,7 +186,7 @@
                         <td align="right" bgcolor="#ffffff"
                             style="padding: 24px; font-family: 'Vazirmatn', sans-serif; font-size: 16px; line-height: 24px; border-bottom: 3px solid #d4dadf">
                             <p style="margin: 0;">سپاس از همراهی شما،<br> 
-                                آب بند سیل بان</p>
+                                سورین تابان انرژی</p>
                         </td>
                     </tr>
                     <!-- end copy -->
