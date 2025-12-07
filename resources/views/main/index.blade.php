@@ -29,9 +29,9 @@
                         <!--</h1>-->
                         
                         @if(app()->getLocale() == 'fa')
-        			    <img src="/assets/images/logo-surinshineenergy-fa.png" style="width: 40%;">
+        				    <img src="/assets/images/logo-type.png" style="width: 40%;">
         				@else
-        			    <img src="/assets/images/logo-surinshineenergy-en.png" style="width: 40%;">
+        				    <img src="/assets/images/logo-type-en.png" style="width: 40%;">
         				@endif
 
                         <!-- Content -->
@@ -57,16 +57,16 @@
                            
                            <div id="tin" class="tiny-slider arrow-round arrow-blur arrow-hover">
                             <div class="tiny-slider-inner pb-1" data-autoplay="true" data-arrow="false" data-speed="1000" data-mode="gallery" data-autoplaytime="5000" data-edge="2" data-dots="false" data-items="1" data-items-lg="1" data-items-sm="1" speed="500">
-                               <img src="assets/banner/solar-panel-installation.jpg" class="img-sliders" />
-                               <img src="assets/banner/solar-panel-roof.jpg" class="img-sliders" />
-                               <img src="assets/banner/solar-farm-field.jpg" class="img-sliders" />
-                               <img src="assets/banner/renewable-energy-team.jpg" class="img-sliders" />
-                               <img src="assets/banner/green-energy-house.jpg" class="img-sliders" />
-                               <img src="assets/banner/solar-inverter-system.jpg" class="img-sliders" />
-                               <img src="assets/banner/solar-panel-maintenance.jpg" class="img-sliders" />
-                               <img src="assets/banner/sustainable-energy.jpg" class="img-sliders" />
-                               <img src="assets/banner/solar-monitoring-system.jpg" class="img-sliders" />
-                               <img src="assets/banner/clean-energy-future.jpg" class="img-sliders" />
+                               <img src="assets/banner/1.png" class="img-sliders" />
+                               <img src="assets/banner/2.jpg" class="img-sliders" />
+                               <img src="assets/banner/3.png" class="img-sliders" />
+                               <img src="assets/banner/4.png" class="img-sliders" />
+                               <img src="assets/banner/5.png" class="img-sliders" />
+                               <img src="assets/banner/6.png" class="img-sliders" />
+                               <img src="assets/banner/7.png" class="img-sliders" />
+                               <img src="assets/banner/8.png" class="img-sliders" />
+                               <img src="assets/banner/9.png" class="img-sliders" />
+                               <img src="assets/banner/10.png" class="img-sliders" />
                             </div>
                         </div>
                            
@@ -225,7 +225,7 @@
         </section>
 
 <div style="width:100%; text-align: center;">
-    <img src="{{ asset('assets/main/solar-energy-solutions.jpg') }}" style="max-height:350px; margin:auto;" />
+    <img src="{{ asset('assets/main/PIC.jpg') }}" style="max-height:350px; margin:auto;" />
 </div>
 
 
@@ -544,7 +544,9 @@
         </section>
 
 
-	<img src="{{ asset('assets/main/solar-company.jpg') }}" />    </main>
+        <img src="{{ asset('assets/main/PICc.jpg') }}" />
+
+    </main>
     <style>
         .bg-purple {
             --bs-bg-opacity: 1;

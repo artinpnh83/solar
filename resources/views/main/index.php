@@ -122,12 +122,12 @@
                         <div class="row mt-4 mt-md-0">
                             <!-- Image 1 -->
                             <div class="col-6">
-                                <img class="rounded" src="assets/images/solar-about/solar-team.jpg" alt="">
+                                <img class="rounded" src="assets/images/about/01.jpg" alt="">
                             </div>
 
                             <!-- Image 2 -->
                             <div class="col-6 mt-5 position-relative">
-                                <img class="rounded" src="assets/images/solar-about/solar-installation.jpg" alt="">
+                                <img class="rounded" src="assets/images/about/02.jpg" alt="">
                                 <!-- SVG decoration -->
                             </div>
 
@@ -391,7 +391,7 @@
         <div id="ourfleet" class=" mt-3 direc row col-12 justify-content-end m-0 p-0 "
             style="border-radius: 16px;background: #f7f7f7;">
             <div class="col-lg-6 p-0 d-flex justify-content-start mb-0 ax-1">
-                <img class="card-img-top  imagea" src="{{ asset('storage/about/solar-company-banner.webp') }}" alt="solar-energy-company">
+                <img class="card-img-top  imagea" src="{{ asset('storage/about/banner.webp') }}" alt="baneer-car-rent">
             </div>
             <div class=" fleet col-lg-6 py-4 d-flex px-xl-5 txt-1" style="align-items: center;justify-content: center;">
                 <div class="card ourfleet m-0 mb-1 mt-3 mt-md-0">
