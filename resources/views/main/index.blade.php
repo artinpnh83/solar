@@ -62,11 +62,11 @@
                                <img src="assets/banner/3.png" class="img-sliders" />
                                <img src="assets/banner/4.png" class="img-sliders" />
                                <img src="assets/banner/5.png" class="img-sliders" />
-                               <img src="assets/banner/6.png" class="img-sliders" />
+                               <!-- <img src="assets/banner/6.png" class="img-sliders" />
                                <img src="assets/banner/7.png" class="img-sliders" />
                                <img src="assets/banner/8.png" class="img-sliders" />
                                <img src="assets/banner/9.png" class="img-sliders" />
-                               <img src="assets/banner/10.png" class="img-sliders" />
+                               <img src="assets/banner/10.png" class="img-sliders" /> -->
                             </div>
                         </div>
                            
