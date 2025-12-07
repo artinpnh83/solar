@@ -58,7 +58,7 @@
                            <div id="tin" class="tiny-slider arrow-round arrow-blur arrow-hover">
                             <div class="tiny-slider-inner pb-1" data-autoplay="true" data-arrow="false" data-speed="1000" data-mode="gallery" data-autoplaytime="5000" data-edge="2" data-dots="false" data-items="1" data-items-lg="1" data-items-sm="1" speed="500">
                                <img src="assets/banner/1.png" class="img-sliders" />
-                               <img src="assets/banner/2.jpg" class="img-sliders" />
+                               <img src="assets/banner/2.png" class="img-sliders" />
                                <img src="assets/banner/3.png" class="img-sliders" />
                                <img src="assets/banner/4.png" class="img-sliders" />
                                <img src="assets/banner/5.png" class="img-sliders" />
