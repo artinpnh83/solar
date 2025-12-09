@@ -29,9 +29,9 @@
                         <!--</h1>-->
                         
                         @if(app()->getLocale() == 'fa')
-        				    <img src="/assets/images/logo-type.png" style="width: 40%;">
+        				    <img src="/assets/images/logo-type.webp" style="width: 40%;">
         				@else
-        				    <img src="/assets/images/logo-type-en.png" style="width: 40%;">
+        				    <img src="/assets/images/logo-type-en.webp" style="width: 40%;">
         				@endif
 
                         <!-- Content -->
@@ -225,7 +225,7 @@
         </section>
 
 <div style="width:100%; text-align: center;">
-    <img src="{{ asset('assets/main/PIC.jpg') }}" style="max-height:350px; margin:auto;" />
+    <img src="{{ asset('assets/main/PIC.webp') }}" style="max-height:350px; margin:auto;" />
 </div>
 
 
