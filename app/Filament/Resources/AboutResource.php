@@ -36,12 +36,14 @@ class AboutResource extends Resource
                     ->image()
                     ->required()
                     ->label('تصویر'),
-                Forms\Components\RichEditor::make('des')
+                Forms\Components\Textarea::make('des')
                     ->required()
                     ->columnSpanFull()
+                    ->rows(10)
                     ->label('توضیحات'),
-                Forms\Components\RichEditor::make('meta')
+                Forms\Components\Textarea::make('meta')
                     ->columnSpanFull()
+                    ->rows(5)
                     ->label('متا تگ ها'),
                 Forms\Components\ToggleButtons::make('lang')
                 ->options([
