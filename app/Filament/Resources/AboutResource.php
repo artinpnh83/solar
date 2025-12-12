@@ -36,7 +36,6 @@ class AboutResource extends Resource
                     ->image()
                     ->disk('public')
                     ->directory('abouts')
-                    ->required()
                     ->label('تصویر'),
                 Forms\Components\Textarea::make('des')
                     ->required()
