@@ -34,6 +34,8 @@ class AboutResource extends Resource
                     ->label('عنوان'),
                 Forms\Components\FileUpload::make('image')
                     ->image()
+                    ->disk('public')
+                    ->directory('abouts')
                     ->required()
                     ->label('تصویر'),
                 Forms\Components\Textarea::make('des')
